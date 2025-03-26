@@ -151,7 +151,6 @@ body {
     flex: 3;
     padding: 10px;
     background: #ff9933;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
