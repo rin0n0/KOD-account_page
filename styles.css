@@ -147,6 +147,7 @@ body {
 
 
 .info__skills{
+    display: none;
     flex: 3;
     padding: 10px;
     background: #ff9933;
