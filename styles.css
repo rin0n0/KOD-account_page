@@ -1,0 +1,171 @@
+/*UI-kit это что?? по программе мы не учились с ними работать и это печально, так что дизайн такой, какой он есть (на следующие задания для фронтов 1 курса давайте макеты, пожалуйста*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002147;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 40px; 
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #004080;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.profile h2{
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+.profile p{
+    font-size: 20px;
+}
+
+.profile__avatar-container {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ffd700, #ffcc00, #d4af37, #b8860b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.profile__avatar {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-color: aliceblue;
+    background-image: url("avatar.png");
+    border-radius: 50%;
+}
+
+.profile__rank {
+    background: linear-gradient(135deg, #ffd700, #ffcc00, #d4af37, #b8860b);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 210px;
+}
+
+.profile__skills-btn {
+    background: gray;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 380px;
+}
+
+.info__direction,
+.info__pts,
+.info__awards,
+.info__skills-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.info__direction {
+    flex:1;
+    background: #ff8000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info__pts {
+    flex: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.info__awards {
+    flex: 3;
+    flex-direction: column;
+    background: #ff9933;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info__award__icons-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.info__award__icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    border-radius: 8px;
+}
+
+.info__skills-head{
+    display: none;
+    flex: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.info__skills{
+    flex: 3;
+    padding: 10px;
+    background: #ff9933;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+}
+
+.info__skills__element{
+    background-color: #ff8000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
